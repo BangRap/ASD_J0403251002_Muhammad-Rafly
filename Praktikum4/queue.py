@@ -4,6 +4,10 @@
 #Kelas  : A1
 #==============================================
 
+#==============================================
+#Implementasi Dasar : Queue
+#==============================================
+
 class Node:
     #Konstruktor adalah fungsi yang dijalankan secara otomatis ketika class Nodde dipanggil / diinstansiasi
     def __init__(self,data):
@@ -66,3 +70,4 @@ q.dequeue()
 q.tampilkan()
 q.dequeue()
 q.tampilkan()
+
